@@ -1,0 +1,25 @@
+"""Impleminting the abstract concpets of oops"""
+
+from abc import ABC, abstractmethod
+
+
+class Animal(ABC):
+    @abstractmethod
+    def make_sound(self):
+        pass
+
+
+class Lion(Animal):
+    def make_sound(self):
+        print("Roar!")
+
+
+class Cow(Animal):
+    def make_sound(self):
+        print("Mooo!")
+
+
+cow = Cow()
+cow.make_sound()
+lion = Lion()
+lion.make_sound()
