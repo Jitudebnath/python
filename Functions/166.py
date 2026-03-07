@@ -7,5 +7,6 @@ def multiplicaton_table(num):
         print(f"{num}*{i}={num*i}")
 
 
+n = int(input("Enter a number:"))
 print("Multiplicstion_table")
-multiplicaton_table(12)
+multiplicaton_table(n)
