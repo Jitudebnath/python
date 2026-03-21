@@ -1,4 +1,4 @@
-"""Sumation of all numbers using rexursion"""
+"""Sumation of all numbers using recursion"""
 
 
 def sum_fun(n):

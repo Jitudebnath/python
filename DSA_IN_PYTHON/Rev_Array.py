@@ -11,4 +11,4 @@ def reverseArray(arr, left, right):
 
 
 arr = [7, 2, 1, 6, 5, 3, 2]
-print(reverseArray(arr, 0, 5))
+print(reverseArray(arr, 0, len(arr) - 1))
