@@ -8,4 +8,4 @@ def fibonacci_number(num):
 
 
 n = int(input("Enter a number :"))
-print(fibonacci_number(n))
+print(f" {n} no fibonacci number is {fibonacci_number(n)}")
