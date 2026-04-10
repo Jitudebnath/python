@@ -10,4 +10,4 @@ def Moves_Zeros(nums):
 
 
 nums = list(map(int, input("Enter number using space:").split()))
-print(Moves_Zeros(nums))
+print("list with zero at the end:", Moves_Zeros(nums))
