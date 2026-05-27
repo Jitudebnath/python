@@ -15,6 +15,9 @@ class Rectangle:
         print(2 * (self.length + self.breadth))
 
 
-r = Rectangle(5, 4)
+l = float(input("Enter the length : "))
+b = float(input("Enter the breadth : "))
+
+r = Rectangle(l, b)
 r.area()
 r.perimeter()
